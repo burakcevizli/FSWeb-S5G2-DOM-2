@@ -31,7 +31,7 @@ Bu projede sakın **hiçbir dosyayı taşımayın veya adını değiştirmeyin**
   * [ ] `keydown` -
   * [ ] `wheel`+
   * [ ] `load`
-  * [ ] `focus`
+  * [ ] `focus`+
   * [ ] `resize`
   * [ ] `scroll`
   * [ ] `select`

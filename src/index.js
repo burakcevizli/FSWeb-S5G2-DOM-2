@@ -52,10 +52,16 @@ const inputsecond = document.createElement("input")
 
 const inputthird = document.createElement("input")
 
+
 inputsecond.setAttribute("type","text")
+
+inputsecond.setAttribute("placeholder","Lütfen mailinizi giriniz.")
+
 input.setAttribute("type","submit")
 
 inputthird.setAttribute("type","submit")
+
+
 
 inputthird.value= "Temizle"
 
@@ -64,6 +70,10 @@ footer.prepend(input)
 footer.prepend(inputsecond)
 
 
-
-
 // Buraya Kadar
+
+inputsecond.addEventListener("focus",(e)=>{
+    e.target.style.background="pink"
+})
+
+
