@@ -23,12 +23,47 @@ for(let i = 0; i< firstNavItem.length;i++){
     })
 }
 
-
-const firstImg = document.querySelector(".intro img")
-
-firstImg.addEventListener("wheel",(e)=>{
-    e.target.style.transform = "scale(1.25)"
+firstNavItem[3].addEventListener("dblclick",(e)=>{
+    alert("Ankara Yenimahalle Batıkent")
 })
-firstImg.addEventListener("mouseout",(e)=>{
-    e.target.style.transform="scale(1)"
-})
+
+
+const firstImg = document.querySelectorAll("img")
+console.log(firstImg)
+
+for(let i = 0; i<firstImg.length;i++){
+    firstImg[i].addEventListener("wheel",(e)=>{
+        e.target.style.transform = "scale(1.25)"
+    })
+
+    firstImg[i].addEventListener("mouseout",(e)=>{
+        e.target.style.transform="scale(1)"
+    })
+}
+
+//Buraya input yapmak için kullandım
+
+
+const footer = document.querySelector(".footer")
+
+const input = document.createElement("input")
+
+const inputsecond = document.createElement("input")
+
+const inputthird = document.createElement("input")
+
+inputsecond.setAttribute("type","text")
+input.setAttribute("type","submit")
+
+inputthird.setAttribute("type","submit")
+
+inputthird.value= "Temizle"
+
+footer.prepend(inputthird)
+footer.prepend(input)
+footer.prepend(inputsecond)
+
+
+
+
+// Buraya Kadar

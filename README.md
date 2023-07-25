@@ -35,7 +35,7 @@ Bu projede sakın **hiçbir dosyayı taşımayın veya adını değiştirmeyin**
   * [ ] `resize`
   * [ ] `scroll`
   * [ ] `select`
-  * [ ] `dblclick`
+  * [ ] `dblclick`+
   * [ ] `drag / drop`
 
 Not: Drag/drop diğerlerine göre biraz daha alengirli. Bu aslında tek bir tür event türü değil, birkaç farklı tür eventin bir arada çalışması gerekir.
